@@ -1,0 +1,108 @@
+/* Reset de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuentes */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Colores */
+body {
+  background-color: #0351fa;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007acc; /* Azul profesional */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #005193; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Secciones */
+section {
+  background-color: #fff;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Proyectos */
+.project {
+  border: 1px solid #ccc; /* Gris claro para el borde */
+  padding: 1.5rem;
+  margin: 1.5rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+  color: #333;
+  font-size: 24px; /* Texto más grande */
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Enlace de correo en la sección de contacto */
+.contact a {
+  text-decoration: none;
+  color: #007acc; /* Azul profesional */
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: #005193; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Botones */
+button {
+  background-color: #007acc; /* Azul profesional */
+  color: #fff;
+  border: none;
+  padding: 12px 24px; /* Botones un poco más grandes */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005193; /* Azul más oscuro al pasar el cursor */
+}
